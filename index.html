@@ -14,7 +14,7 @@
       color: #333;
     }
     header {
-      background-color: #007bff;
+      background-color: #4F93C2; /* zamijenjeno iz #007bff */
       color: white;
       padding: 40px 20px;
     }
@@ -45,6 +45,11 @@
     a.download-button:hover {
       background-color: #218838;
     }
+    .note {
+      margin-top: 15px;
+      font-size: 0.95rem;
+      color: #555;
+    }
     .screenshots {
       display: flex;
       justify-content: center;
@@ -66,47 +71,31 @@
   </style>
 </head>
 <body>
-
   <header>
-  <h1>Adoptly</h1>
-  <img src="adoptly_logo.png" alt="Adoptly Logo" style="max-width:150px; margin: 20px 0;">
-  <p>Adoptly je moderna mobilna aplikacija koja spaja skloništa i udomitelje na jednom mjestu te digitalizira cijeli proces udomljavanja životinja. Umjesto nepreglednih oglasa i zastarjelih kanala, Adoptly donosi transparentan, brz i pouzdan sustav kroz koji korisnici mogu pronaći svog budućeg ljubimca ili jednostavno upravljati procesom udomljavanja.</p>
-</header>
-
+    <h1>Adoptly</h1>
+    <img src="adoptly_logo.png" alt="Adoptly Logo" style="max-width:150px; margin: 20px 0;">
+    <p>Adoptly je moderna mobilna aplikacija koja spaja skloništa i udomitelje na jednom mjestu te digitalizira cijeli proces udomljavanja životinja. Umjesto nepreglednih oglasa i zastarjelih kanala, Adoptly donosi transparentan, brz i pouzdan sustav kroz koji korisnici mogu pronaći svog budućeg ljubimca ili jednostavno upravljati procesom udomljavanja.</p>
+  </header>
+  
   <main>
-    <a class="download-button" href="https://github.com/ivanabelinic/adoptly_download/releases/download/v1.0.0/app-debug.apk" download>Preuzmite APK aplikacije Adoptly</a>
-
+    <a class="download-button" href="https://github.com/ivanabelinic/adoptly_download/releases/download/v1.0.0/app-debug.apk" download>
+      Preuzmite APK aplikacije Adoptly
+    </a>
+    <p class="note">📂 Nakon preuzimanja datoteka će biti dostupna u aplikaciji <em>Moje datoteke</em> u mapi <strong>Preuzimanja</strong>.</p>
+    
     <div class="screenshots">
-  <img src="adopter_home.png" alt="Adoptly screenshot 1">
-  <img src="adopter_requests.png" alt="Adoptly screenshot 2">
-  <img src="novosst.png" alt="Adoptly screenshot 3">
-  <img src="profile.png" alt="Adoptly screenshot 4">
-  <img src="shelter_home.png" alt="Adoptly screenshot 5">
-  <img src="shelter_requests.png" alt="Adoptly screenshot 6">
-</div>
-
-<style>
-.screenshots {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.screenshots img {
-  width: 48%; /* 2 slike po redu, s malo razmaka */
-  height: auto; /* zadrži omjer */
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-</style>
-
+      <img src="adopter_home.png" alt="Adoptly screenshot 1">
+      <img src="adopter_requests.png" alt="Adoptly screenshot 2">
+      <img src="novosst.png" alt="Adoptly screenshot 3">
+      <img src="profile.png" alt="Adoptly screenshot 4">
+      <img src="shelter_home.png" alt="Adoptly screenshot 5">
+      <img src="shelter_requests.png" alt="Adoptly screenshot 6">
+    </div>
   </main>
-
+  
   <footer style="text-align: center; padding: 20px; font-size: 14px; color: #555;">
-  <p>&copy; 2025 Adoptly — All rights reserved.</p>
-  <p>Developed with ❤️ by <strong>Ivana Belinić</strong></p>
-</footer>
-
+    <p>&copy; 2025 Adoptly — All rights reserved.</p>
+    <p>Developed with ❤️ by <strong>Ivana Belinić</strong></p>
+  </footer>
 </body>
 </html>
